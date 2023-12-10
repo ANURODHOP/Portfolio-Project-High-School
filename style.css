@@ -288,6 +288,11 @@ section#projects{
     left: 15px;
     color: white;
     display: none;
+    padding: 20px;
+    padding-top: 30px;
+    height: 15px;
+    background-color: blueviolet;
+    border-radius: 50%;
 }
 .project:hover i{
     display: block;
