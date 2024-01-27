@@ -110,7 +110,6 @@ section {
   display: flex;
   height: 400px;
   width: 400px;
-  margin: auto 0;  
 }
 
 .section__text {
@@ -207,7 +206,7 @@ section {
 }
 
 .about-details-container {
-  width: 35%;
+  max-width: 35%;
   margin-top: 25px;
 }
 
@@ -223,14 +222,17 @@ section {
 
 
 .section-container {
-  gap: 4rem;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
   height: 80%;
 }
 
 .section__pic-container {
   height: 400px;
   width: 400px;
-  margin-left: 200px;
 }
 
 /* SERVICES SECTION */
@@ -250,7 +252,7 @@ section {
     color: white;
     background-color: rgb(141, 17, 203);
     padding: 40px;
-    width: 650px;
+    max-width: 20vw;
     height: 250px;
     border-radius: 40px;
     transition: transform 2s ease;
@@ -270,6 +272,7 @@ section {
 /* PROJECTS SECTION */
 
 section#projects{
+    height: max-content;
     padding-top: 100px;
 }
 .outer{
@@ -281,6 +284,7 @@ section#projects{
     width: 600px;
     height: 400px;
     position: relative;
+    overflow: hidden;
 }
 .project a i{
     position: absolute;
@@ -354,7 +358,7 @@ section#projects{
 
 footer {
 
-  background-color: plum;
+  background-color: rgb(228, 83, 228);
   padding: 10px;
 }
 
