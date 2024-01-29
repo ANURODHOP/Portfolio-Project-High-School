@@ -1,146 +1,231 @@
-@media only screen and (max-width: 1200px){
-    section{
+@media only screen and (max-width: 1200px) {
+    section {
         margin: none;
     }
-    .outer{
+
+    .outer {
         margin: 50px -150px;
     }
 }
 
-@media screen and (max-width: 889px){
-    .nav-links{
+@media screen and (max-width: 889px) {
+    .nav-links {
         gap: 1rem;
     }
-    .nav-links li{
+
+    .nav-links li {
         font-size: 1.3rem;
     }
-    #profile{
+
+    #profile {
         gap: 1.2rem;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    .section__pic-container{
+
+    .section__pic-container {
         align-items: center;
         justify-content: center;
     }
-    .section__pic-container img{
+
+    .section__pic-container img {
         width: 300px;
         height: 300px;
-    } 
-    .section-container{
+    }
+
+    .section-container {
         width: 100%;
         gap: 0rem;
         flex-direction: column;
         justify-content: center;
     }
-    #about{
+
+    #about {
         height: max-content;
     }
-    .about-details-container{
+
+    .about-details-container {
         max-width: 80%;
         text-align: center;
         justify-content: center;
     }
 }
 
-@media screen and (max-width: 768px){
-    .logo{
+@media screen and (max-width: 768px) {
+    .logo {
         font-size: 1.3rem;
     }
-    .nav-links{
+
+    .nav-links {
         padding: 5px;
     }
-    .nav-links li{
+
+    .nav-links li {
         font-size: 1.1rem;
     }
 
-    div.outer{
+    div.outer {
         width: 100vw;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        min-height: fit-content;   
-        gap: 15px;  
+        min-height: fit-content;
+        gap: 15px;
     }
-    .card:hover{
+
+    .card:hover {
         transform: none;
     }
-    div.outer div.card{
+
+    div.outer div.card {
         max-width: 40vw;
         height: 100px;
     }
-    div.outer div.project{
+
+    div.outer div.project {
         max-width: 50vw;
         height: max-content;
     }
-    div.project img{
+
+    div.project img {
         width: 100%;
-    }   
-    section#services,section#projects{
+    }
+
+    section#services,
+    section#projects {
         height: max-content;
-    } 
+    }
+
+    .section__text__p2 {
+        font-size: 1.55rem;
+        margin-bottom: 1rem;
+    }
+
+    .title {
+        font-size: 2rem;
+        text-align: center;
+    }
 }
 
-@media screen and (max-width: 600px){
-    section{
+@media screen and (max-width: 600px) {
+    .nav-links {
+        padding: 0;
+        gap: 0.45rem;
+    }
+
+    section {
         margin: auto;
     }
-    #about{
+
+    #about {
         width: 100%;
     }
-    .about-details-container{
+
+    .about-details-container {
         max-width: 80%;
         justify-content: center;
         align-items: center;
     }
-    .section-container{
-        margin: auto;   
+
+    .section-container {
+        margin: auto;
     }
-    
-    div.card{   
+
+    div.card {
         width: 75%;
         height: max-content;
     }
-    div.outer{
+
+    div.outer {
         margin: auto;
         height: max-content;
     }
-    div.outer div.card{
+
+    div.outer div.card {
         max-width: 40vw;
         height: max-content;
     }
 
 }
 
-@media screen and (max-width: 480px){
-    .logo{
-        font-size: 1rem;
+@media screen and (max-width: 480px) {
+    .logo {
+        font-size: 0.9rem;
+        padding-left: 5px;
+        padding-right: 7px;
     }
-    .nav-links{
+
+    .desktop-nav {
+        padding: 10px;
         flex-direction: column;
-        padding: 1px;
     }
-    nav{
+
+    .nav-links li:nth-child(5) {
+        padding-right: 2px;
+    }
+
+    nav {
         height: fit-content;
     }
-    .nav-links li{
-        font-size: 0.85rem;
+
+    .nav-links li {
+        font-size: 0.65rem;
     }
-    #profile{
-        padding-top: 400px;
-    }
-    #about{
-        margin-top: 150px;
-    }
-    div.card{ 
-        justify-content: left;  
+
+    div.card {
+        justify-content: left;
         max-width: 95%;
         height: max-content;
+        font-size: 0.8rem;
     }
-    div.project{
+
+    div.project {
         max-width: 95%;
+        height: max-content;
+        font-size: 0.7rem;
+    }
+
+    .section__pic-container {
+        width: 200px;
         height: max-content;
     }
 
+    .section__pic-container img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #profile {
+        padding-top: 80px;
+    }
+
+    .section_text {
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-details-container {
+        font-size: 0.7rem;
+    }
+
+    .text_container {
+        margin-top: 10px;
+    }
+
+    .section__text__p2 {
+        font-size: 1rem;
+        margin-bottom: 0.85rem;
+    }
+
+    .title {
+        font-size: 1.65rem;
+        text-align: center;
+    }
+    footer p{
+        font-size: 0.7rem;
+    }
+    .contact-info-container p{
+        font-size: 0.85rem;
+    }
 }
