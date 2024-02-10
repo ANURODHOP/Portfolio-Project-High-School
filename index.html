@@ -8,6 +8,8 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mobile.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
     <script src="https://kit.fontawesome.com/98a8318835.js" crossorigin="anonymous"></script>
 </head>
 
@@ -24,7 +26,7 @@
             </ul>
         </div>
     </nav>
-
+    <div class="container">
     <section id="profile">
         <div class="section__pic-container">
             <img src="assets/pic-1.png" alt="Hari Yadav profile picture" />
@@ -35,7 +37,7 @@
             <p class="section__text__p2">FullStack Developer</p>
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('assets/resume.pdf')">
-                    Download CV
+                    Show CV
                 </button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">
                     Contact Info
@@ -127,13 +129,18 @@
                 <p><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwQMBgnxqHdHFLVhgDFCSrqFbVVtsQCcztVJkcrRBbgStNrJXKzlsFRnBHZJjCDnGfVbKDr"
                         target="_blank">Example@gmail.com</a></p>
             </div>
-
         </div>
     </section>
+    </div>
+    
     <footer>
         <p>Copyright &#169; 2023 Hari Yadav. All Rights Reserved.</p>
     </footer>
 </body>
 <script src="script.js"></script>
-
+    
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({duration: 2000})
+</script>
 </html>
